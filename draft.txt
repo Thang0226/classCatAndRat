@@ -1,0 +1,22 @@
+
+Rat
+----------------------
++ name: string
++ weight: int
++ speed: int
++ state: boolean
++ caught: boolean
+----------------------
++ squeak(): void
+
+
+Cat
+----------------------
++ name: string
++ weight: int
++ max_speed: int
+----------------------
++ squeak(): void
++ catchRat(Rat): void
++ eatRat(Rat): void
+
